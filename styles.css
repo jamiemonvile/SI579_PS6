@@ -1,0 +1,97 @@
+.row {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+a{
+  color: #6a2140;
+}
+
+h1{
+  font-size: 3em;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 20px;
+}
+
+h2{
+  font-size:  2em;
+  font-family: 'Merriweather', serif;
+}
+
+h3{
+  font-size:  1.7em;
+  font-family: 'Merriweather', serif;
+}
+
+p, li, footer, figcaption{
+  font-size: 1em;
+  font-family: 'Source-Sans-Pro', sans-serif;
+}
+
+body{
+  background-color: #e9e1c9;
+  /* padding-left: 300px;
+  padding-right: 300px; */
+}
+
+footer{
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1, h2, h3, figcaption {
+  text-align: center;
+}
+
+
+
+.hollanders::after{
+  content: " (available @ Hollanders)";
+}
+
+#border{
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0.726);
+}
+
+#thumbnails {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#thumbnails img {
+  display: inline-block;
+  height: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter:grayscale(1);
+}
+
+#thumbnails img.color {
+  display: inline-block;
+  height: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter:grayscale(0);
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption{
+  padding-top: 10px;
+}
+
+#featured {
+  display: inline-block;
+  max-width: 350px;
+  margin: auto;
+}
+
+.center{
+  text-align: center;
+}
